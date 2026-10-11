@@ -1,0 +1,45 @@
+{
+  "schema": "MusicBrainz Pop Extras Tagging Schema",
+  "version": "1.0",
+  "plugin_version": "0.1.0",
+  "mapper_version": "0.1.1",
+  "value_model": "Unicode scalar or repeatable list",
+  "pop_extras_tags": [
+    "musicbrainz_programming",
+    "musicbrainz_instrument_arranger",
+    "musicbrainz_vocal_arranger",
+    "musicbrainz_qualified_producer",
+    "musicbrainz_qualified_engineer",
+    "musicbrainz_performance_credits",
+    "musicbrainz_production_credits",
+    "musicbrainz_recorded_at",
+    "musicbrainz_mixed_at",
+    "musicbrainz_mastered_at",
+    "musicbrainz_recording_date",
+    "musicbrainz_work_credits",
+    "musicbrainz_publishers",
+    "musicbrainz_iswc",
+    "musicbrainz_work_language",
+    "musicbrainz_work_identifiers",
+    "musicbrainz_source_material",
+    "musicbrainz_work_genealogy",
+    "musicbrainz_semantic_json"
+  ],
+  "optional_external_link_tags": [
+    "discogs_release_id",
+    "discogs_release_url",
+    "discogs_master_id",
+    "discogs_master_url",
+    "allmusic_release_url",
+    "allmusic_releasegroup_url"
+  ],
+  "jriver_browse_exclusions": [
+    "musicbrainz_work_identifiers",
+    "musicbrainz_semantic_json"
+  ],
+  "ownership": {
+    "pop_extras": "MusicBrainz typed recording/work relationships",
+    "external_links": "MusicBrainz URL relationships only; no Discogs API metadata",
+    "discogs_metadata": "Outside this plugin; owned by DiscogsTagger"
+  }
+}
